@@ -1,0 +1,207 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+  .header .link {
+    display: none!important;
+  }
+  .header .image .dropdown {
+    display: block!important;
+    margin-left: 20px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner .banner1 .cow1 {
+    border: unset;
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner1 .cow2 {
+    border: unset;
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner2 .cow3 {
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner2 .cow4 {
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .column .column1 {
+    display: flex;
+  }
+  .column .column1 .sp1 {
+    margin: 5px;
+  }
+  .column .column2 {
+    display: flex;
+  }
+  .column .column2 .sp1 {
+    margin: 5px;
+  }
+  .column .column3 {
+    display: flex;
+  }
+  .column .column3 .sp1 {
+    margin: 5px;
+  }
+  .column .column4 {
+    display: flex;
+  }
+  .column .column4 .sp1 {
+    margin: 5px;
+  }
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Slab", sans-serif;
+  overflow-x: hidden;
+}
+.header {
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  animation: unset;
+  transition: unset;
+  width: 100%;
+  height: 110px;
+  background-color: white;
+}
+.header .text {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+.header .text a {
+  text-decoration: none;
+  color: #86BA09;
+  font-weight: 700;
+}
+.header .link {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+.header .link a {
+  text-decoration: none;
+  color: #86BA09;
+  font-weight: 700;
+}
+.header .link a {
+  font-weight: 650;
+  text-decoration: none;
+  font-size: 18px;
+  color: #695e5e;
+  margin: 0px 15px;
+  position: relative;
+}
+.header .link a button {
+  font-weight: 650;
+  text-decoration: none;
+  font-size: 18px;
+  color: #695e5e;
+}
+.header .link a:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  transition: 0.5s;
+}
+.header .link a:hover:after {
+  width: 100%;
+  background-color: #000000;
+}
+.header .link a:hover {
+  color: #86BA09;
+}
+.header .link button {
+  background-color: transparent;
+  border: unset;
+}
+.header .link button:hover {
+  color: #86BA09;
+}
+.header .image {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-size: 18px;
+}
+.header .image a {
+  text-decoration: none;
+  color: #86BA09;
+  font-weight: 700;
+}
+.header .image .sreach .input-group {
+  display: none;
+}
+.header .image img {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+}
+.header .image button {
+  background-color: transparent;
+  border: unset;
+}
+.header .image button:hover {
+  color: #86BA09;
+}
+.header .image .dropdown {
+  display: none;
+}
+.popover-body {
+  width: 200px;
+}
+.popover-body p a {
+  font-size: 18px;
+  text-decoration: none;
+}
+.popover-body p a:hover {
+  color: #0ff80f;
+}
+.click-top {
+  cursor: pointer;
+  width: 40px;
+  position: fixed;
+  right: 0;
+  bottom: 10%;
+}
+.click-top a {
+  font-size: 40px;
+}
+.click-top a:hover {
+  color: red;
+}
+.flag-icon-us {
+  background-image: url("image/image-header/vietnam.png");
+}

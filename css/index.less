@@ -1,0 +1,182 @@
+@green: #86BA09;
+@import "responesive.less";
+
+// @mixin a-flex {
+//     display:flex;
+// }
+
+html,body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Slab", sans-serif;
+    overflow-x: hidden; 
+   
+}
+
+
+
+// var {
+//     --color-green:@green;
+// }
+
+
+.header{
+    z-index: 999;
+    position: fixed;
+    display:flex;
+    animation: unset;
+    transition:unset;
+    width:100%;
+    height:110px;
+    background-color:white;
+    
+    .text{
+        display:flex;
+        text-align: center;
+        align-items: center;
+        justify-content:center;
+        font-size: 40px;
+        a{
+
+            text-decoration:none;
+            color:@green;
+            font-weight: 700;
+        }
+    }
+
+    .link{
+        .text();
+        a{
+            font-weight: 650;
+            text-decoration:none;
+            font-size: 18px;
+            color: rgb(105, 94, 94);
+            margin:0px 15px;
+            position: relative;
+            button{
+                font-weight: 650;
+                text-decoration:none;
+                font-size: 18px;
+                color: rgb(105, 94, 94);
+
+            }
+           
+        }
+
+
+
+        a:after{
+            content:"";
+            position: absolute;
+            width:0%;
+            bottom:-2px;
+            left: 0;
+            right: 0;
+            height:2px;
+            transition: 0.5s;
+        }
+
+        a:hover:after {
+           
+            width:100%;
+            background-color: rgb(0, 0, 0);
+        }
+
+        a:hover{
+            color:@green;
+        }
+
+        button{
+            background-color: transparent;
+            border: unset;
+        }
+        
+        button:hover{
+            color: @green;
+        }
+    } 
+
+
+
+    .image {
+        .text();
+        font-size: 18px;
+
+        .sreach{
+
+            .input-group{
+                display: none;
+            }
+            
+        }
+        
+      
+        img{
+            padding:10px;
+            width:40px;
+            height:40px
+        }
+        button{
+            background-color: transparent;
+            border: unset;
+        }
+
+        button:hover{
+            color: @green;
+        }
+        .dropdown{
+            display: none;
+        }
+    }
+
+   
+}
+
+// popover
+
+.popover-body{
+    width:200px;
+    p{
+        a{
+            font-size: 18px;;
+            text-decoration:none;
+        }
+        a:hover{
+           
+            color:rgb(15, 248, 15)
+        }
+    }
+
+}
+
+
+.click-top{
+    cursor: pointer;
+    width:40px;
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    a{
+        font-size:40px;
+        
+    }
+    a:hover{
+        color:red;
+        
+    }
+    
+}
+
+
+// navbar
+
+.flag-icon-us{
+    background-image: url("./image/image-header/vietnam.png");
+   
+}
+
+
+// responesive
+
+
+

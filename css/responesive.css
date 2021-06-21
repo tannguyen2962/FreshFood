@@ -1,0 +1,83 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+  .header .link {
+    display: none!important;
+  }
+  .header .image .dropdown {
+    display: block!important;
+    margin-left: 20px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner .banner1 .cow1 {
+    border: unset!important;
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner1 .cow1 img {
+    border-radius: 10%;
+  }
+  .banner .banner1 .cow2 {
+    border: unset!important;
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner1 .cow2 img {
+    border-radius: 10%;
+  }
+  .banner .banner2 .cow3 {
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner2 .cow3 img {
+    border-radius: 10%;
+  }
+  .banner .banner2 .cow4 {
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner2 .cow4 img {
+    border-radius: 10%;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .column .column1 {
+    display: flex;
+  }
+  .column .column1 .sp1 {
+    margin: 5px;
+  }
+  .column .column2 {
+    display: flex;
+  }
+  .column .column2 .sp1 {
+    margin: 5px;
+  }
+  .column .column3 {
+    display: flex;
+  }
+  .column .column3 .sp1 {
+    margin: 5px;
+  }
+  .column .column4 {
+    display: flex;
+  }
+  .column .column4 .sp1 {
+    margin: 5px;
+  }
+}

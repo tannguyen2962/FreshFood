@@ -1,0 +1,203 @@
+@keyframes fade {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes left-to-right {
+  from {
+    left: -500px;
+  }
+  to {
+    left: 15%;
+  }
+}
+@keyframes left {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+.slideshow {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.slideshow .slides {
+  display: block;
+  animation-duration: 1.5s;
+  transition: 0.5s;
+}
+.slideshow .slide-1 {
+  width: 100%;
+  height: 100%;
+  animation-name: fade;
+  background: url("..//image/image-slideshow/cross-sections-863072_1920.jpg") center no-repeat;
+  background-size: cover;
+}
+.slideshow .slide-1 .text1 {
+  animation-name: left-to-right;
+  animation-duration: 1s;
+  flex-direction: column;
+  top: 25%;
+  left: 15%;
+  position: absolute;
+  display: flex;
+}
+.slideshow .slide-1 .text1 span {
+  text-align: center;
+  font-size: 80px;
+  color: #f7f7f7;
+}
+.slideshow .slide-1 .text1 h3 {
+  animation-name: left;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  font-size: 70px;
+  font-weight: 600;
+  animation-fill-mode: forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #b4ff09;
+}
+.slideshow .slide-1 .text1 p {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+.slideshow .slide-1 .text1 button {
+  min-width: 50%;
+  background-color: #17e217;
+  color: #fff;
+  border: unset;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 19px;
+  font-weight: 400;
+}
+.slideshow .slide-1 .text1 button:hover {
+  background-color: #fff;
+  color: #17e217;
+}
+.slideshow .slide-2 {
+  width: 100%;
+  height: 100vh;
+  animation-name: fade;
+  background: url("../image/image-slideshow/vegetable.jpg") center no-repeat;
+  background-size: cover;
+}
+.slideshow .slide-2 .text2 {
+  animation-name: left-to-right;
+  animation-duration: 1s;
+  flex-direction: column;
+  position: absolute;
+  display: flex;
+  color: white;
+  top: 30%;
+  left: 15%;
+}
+.slideshow .slide-2 .text2 span {
+  text-align: center;
+  font-size: 60px;
+  color: #6df100;
+}
+.slideshow .slide-2 .text2 h3 {
+  color: #f9f9f9;
+  animation-name: left;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  font-size: 70px;
+  font-weight: 600;
+  animation-fill-mode: forwards;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.slideshow .slide-2 .text2 p {
+  text-align: center;
+  font-size: 30px;
+}
+.slideshow .slide-2 .text2 button {
+  background-color: #17e217;
+  color: #fff;
+  border: unset;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 19px;
+  font-weight: 400;
+}
+.slideshow .slide-2 .text2 button:hover {
+  background-color: #fff;
+  color: #17e217;
+}
+.slideshow .slide-3 {
+  width: 100%;
+  height: 100vh;
+  animation-name: fade;
+  background-size: cover;
+  background: url("../image/image-slideshow/juice-bg.jpg") center no-repeat;
+}
+.slideshow .slide-3 .text3 {
+  animation-name: left-to-right;
+  animation-duration: 1s;
+  flex-direction: column;
+  top: 30%;
+  left: 15%;
+  position: absolute;
+  display: flex;
+}
+.slideshow .slide-3 .text3 span {
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+}
+.slideshow .slide-3 .text3 h3 {
+  color: #0076ef;
+  animation-name: left;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  font-size: 70px;
+  font-weight: 600;
+  animation-fill-mode: forwards;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.slideshow .slide-3 .text3 p {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+.slideshow .slide-3 .text3 button {
+  min-width: 50%;
+  background-color: #17e217;
+  color: #fff;
+  border: unset;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 19px;
+  font-weight: 400;
+}
+.slideshow .slide-3 .text3 button:hover {
+  background-color: #fff;
+  color: #17e217;
+}
+.truoc,
+.sau {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  padding: 16px;
+  color: white;
+  font-size: 18px;
+}
+.sau {
+  right: 0;
+}
+.truoc:hover,
+.sau:hover {
+  background-color: transparent;
+  opacity: 0.8;
+}

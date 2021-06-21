@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>  
+    <link rel="stylesheet" href="../css/knowledge.css" />
+    <link rel="stylesheet" href="../css/slidebar-left.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/footer.css" />
+   
+    <link rel="stylesheet" href="../css/banner.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header">
+      <div class="col-lg-3 col-md-6 text"><a href="index.html">CLEVERFOOD</a></div>
+      <div class="col-lg-6 link">
+        <a href="index.html">TRANG CHỦ</a>
+        <a href="introduce.html">GIỚI THIỆU</a>
+        <a
+          href="#"
+          data-bs-container="body"
+          data-bs-toggle="popover"
+          data-bs-placement="bottom"
+        >
+          <button id="testBtn" type="button">CỬA HÀNG &#10095;</button>
+        </a>
+
+        <a href="" style="color:#86BA09 ; font-size: 20px;" >KIẾN THỨC</a>
+        <a href="contact.html">LIÊN HỆ</a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 image">
+        <div class="sreach">
+          <img src="../image/image-header/search.svg" alt="" />
+          <div class="input-group">
+            <div class="form-outline">
+              <input
+                id="search-focus"
+                type="search"
+                id="form1"
+                class="form-control"
+              />
+              <label class="form-label" for="form1">Search</label>
+            </div>
+            <button type="button" class="btn btn-primary">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <a href="login.html">
+          <img src="../image/image-header/user.png" alt=""
+        /></a>
+        <a href="shopping.html">
+          <img src="../image/image-header/shopping-cart.png" alt=""
+        /></a>
+
+        <!-- <button>
+          <img src="image/image-header/vietnam.png" alt="" />Tiếng Việt
+        </button> -->
+        <select class="selectpicker" data-width="fit">
+          <option
+            data-content='<span class="flag-icon flag-icon-us"></span> vietnam'
+          >
+            Việt Nam
+          </option>
+          <option
+            data-content='<span class="flag-icon flag-icon-mx"></span> English'
+          >
+            English
+          </option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Sub menu -->
+    <div id="cua-hang-sub-menu-wrapper">
+      <p><a href="">Rau Củ</a></p>
+      <p><a href="">Trái Cây</a></p>
+      <p><a href="">Đồ Uống</a></p>
+    </div>
+
+    <!-- click to top -->
+    <div class="click-top">
+      <a href="#top">
+        <i class="fas fa-angle-double-up"> </i>
+      </a>
+    </div>
+
+    <!-- content -->
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>CLEVERFOOD</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Dummy Heading</p>
+              
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li>
+                    <a href="introduce.html">Giới Thiệu</a>
+                </li>
+               
+                <li><a href="">Cửa Hàng</a></li>
+                <li>
+                    <a href="knowledge.html">Kiến Thức</a>
+                </li>
+                <li>
+                    <a href="contact.html">Liên Hệ</a>
+                </li>
+            </ul>
+
+           
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button>
+                    <!-- <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button> -->
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+          <div class="first-line">
+            <h2>3 Lợi ích của Eat Clean</h2>
+            
+           <img src="../image/image-knowledge/eatclean.png" alt="">
+           <p> Thông thường, người ta chọn áp dụng Eat Clean với hai mục đích chính là đảm bảo sức khỏe và giúp vóc dáng thon gọn, săn chắc. Dưới đây là một số lợi ích nổi bật mà phương pháp ăn uống này mang lại.</p>
+          </div>
+            <div class="line"></div>
+
+            <h2>Giảm cân khoa học</h2>
+           
+            <p>Nếu như hầu hết những chế độ ăn kiêng thông thường đều khá "gay gắt" khiến người áp dụng khổ sở vì đói và thèm ăn thì Eat Clean lại khá "dễ thở". Eat Clean không buộc bạn phải loại bỏ hoàn toàn đường và chất béo mà chỉ hạn chế, vẫn ăn tinh bột và chất béo lành mạnh. 
+            </p>
+            <img src="../image/image-knowledge/giam-can-khoa-hoc.jpg" alt="">
+            <p>Khi bạn ngưng sử dụng thực phẩm chế biến sẵn chuyển sang "ăn sạch", hormone trong cơ thể bạn sẽ thay đổi từ trạng thái lưu trữ chất béo sang trạng thái đốt cháy chất béo. Mặt khác, việc bổ sung đủ protein, rau xanh và trái cây còn hỗ trợ đốt cháy năng lượng dư thừa và điều hòa quá trình trao đổi chất, giúp việc tập luyện giảm cân của bạn trở nên hiệu quả hơn. </p>
+            <p>Do đó, phương pháp này vừa giúp bạn giảm cân mà vẫn đảm bảo năng lượng để hoạt động và không ảnh hưởng đến sức khỏe lâu dài.</p>
+            <div class="line"></div>
+
+            <h2>Tốt cho hoạt động não bộ</h2>
+           
+            <p>Trong quá trình áp dụng Eat Clean, hãy hạn chế sử dụng caffeine vì đây là chất gây căng thẳng thần kinh, gây nghiện và khiến não bộ mệt mỏi.</p>
+            <img src="../image/image-knowledge/tot-cho-nao-bo.jpeg" alt="">
+            <p>Không chỉ đảm bảo hoạt động thể chất, ăn uống theo Eat Clean còn giúp "bồi bổ" sức khỏe tinh thần. Tăng cường ăn vitamin B6 có nhiều trong các loại hạt sẽ cung cấp cho bạn một lượng dopamine. Đây là chất dẫn truyền thần kinh có tác dụng làm tinh thần tỉnh táo, phấn chấn hơn. Bên cạnh đó, omega-3, một loại axit béo có nhiều trong cá hồi đóng vai trò giảm thiểu những căng thẳng, áp lực tinh thần mà bạn phải đối mặt trong công việc hay cuộc sống. Qua đó, não bộ của bạn sẽ thoát khỏi trạng thái "căng như dây đàn", hoạt động năng suất và hiệu quả hơn.</p>
+
+            <div class="line"></div>
+
+            <h3>Phòng tránh cao huyết áp và suy thận </h3>
+            <img src="../image/image-knowledge/phong-tranh-cao-huyet-ap.jpg" alt="">
+            <p>Tối giản trong khâu chế biến luôn là phương châm của Eat Clean. Giữ nguyên hương vị tự nhiên của món ăn, hạn chế lượng muối và gia vị khi nấu nướng sẽ tạo cho bạn thói quen ăn uống lành mạnh hơn. Hạn chế ăn mặn sẽ mang đến nhiều lợi ích lâu dài cho sức khỏe, giúp thận không phải làm việc quá sức, phòng tránh suy thận, cao huyết áp, tăng xông hay đột quỵ ở người lớn tuổi. </p>
+        </div>
+    </div>
+      <!-- footer -->
+      <div class="footer">
+        <div class="col-12 footer1">
+          <h2>Đăng ký để nhận cập nhật</h2>
+          <p>Để lại email để không bỏ lỡ ưu đãi nào</p>
+          <div class="email">
+            <div class="dangky">
+              <input class="text" type="email" />
+              <label for=""
+                ><input class="submit" type="submit" value="Đăng Ký"
+              /></label>
+            </div>
+          </div>
+        </div>
+        <!-- footer2 -->
+        <div class="footer2">
+          <div class="col-lg-3 col-md-6 column1">
+            <h2>CLEVERFOOD</h2>
+            <h6>Địa chỉ: 319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</h6>
+            <a href="mailto:clearverfood@gmail.com"
+              >Email: clearingverfood@gmail.com</a
+            >
+            <a href="tel:0392421118">SĐT: 0392421118</a>
+          </div>
+          <div class="col-lg-3 column2">
+            <h2>Menu</h2>
+            <div class="text2">
+              <a href="index.html">Trang Chủ</a>
+              <a href="introduce.html">Giới Thiệu</a>
+              <a href="">Cửa Hàng</a>
+              <a href="knowledge.html">Kiến Thức</a>
+              <a href="contact.html">Liên Hệ</a>
+            </div>
+          </div>
+          <div class="col-lg-3 column3">
+            <h2>Sản Phẩm</h2>
+            <div class="text3">
+             
+              <a href="">Rau Củ</a>
+              <a href="">Trái Cây</a>
+              <a href="">Đồ Uống</a>
+             
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 column4">
+            <h2>Contact Us</h2>
+            <div class="text4">
+  
+              <a href="">
+                <img src="../image/image-footer/facebook (1).png" alt="">
+              </a>
+  
+             <a href="">
+             <img src="../image/image-footer/instagram (2).png" alt="">
+             </a>
+             <a href="">
+              <img src="../image/image-footer/youtube (1).png" alt="">
+              </a>
+          </div>
+      </div>
+     
+    </body>
+    <script type="text/javascript" src="../js/slide-show.js"></script>
+    <script type="text/javascript" src="../js/popover.js"> </script>
+    <script type="text/javascript" src="../js/slidebar-left.js"> </script>
+    <script type="text/javascript" src="../js/sub-menu.js"> </script>
+  
+    
+  </html>
+  
+  
