@@ -3,7 +3,7 @@
   width: 100%;
   height: 50vh;
   position: relative;
-  background: url("../image/image-contact/eye-3115723_1920.jpg") fixed center no-repeat;
+  background: url("../image/image-contact/eye-3115723_1920.jpg") center no-repeat;
   background-size: cover;
   opacity: 0.9;
   background-color: rgba(26, 25, 25, 0.5);
@@ -28,7 +28,7 @@
 }
 .banner .banner-text h2 a {
   text-decoration: none;
-  color: #21c4cf;
+  color: #1d2020;
 }
 .map-container-2 {
   margin-bottom: 50px;
@@ -43,4 +43,17 @@
   height: 100%;
   width: 100%;
   position: absolute;
+}
+@media (max-width: 768px) {
+  .banner {
+    background-size: cover;
+    margin-top: 0px !important;
+  }
+  .banner .banner-text {
+    top: 70%;
+    width: 100%;
+  }
+  .banner .banner-text h1 {
+    font-size: 35px;
+  }
 }

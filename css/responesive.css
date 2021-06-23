@@ -57,6 +57,133 @@
     flex-direction: column;
   }
   .column .column1 {
+    padding: 0px!important;
+    display: flex;
+  }
+  .column .column1 .sp1 {
+    margin: 5px;
+  }
+  .column .column2 {
+    padding: 0px!important;
+    display: flex;
+  }
+  .column .column2 .sp2 {
+    margin: 5px;
+  }
+  .column .column3 {
+    padding: 0px!important;
+    display: flex;
+  }
+  .column .column3 .sp3 {
+    margin: 5px;
+  }
+  .column .column4 {
+    padding: 0px!important;
+    display: flex;
+  }
+  .column .column4 .sp4 {
+    margin: 5px;
+  }
+  .vegetables {
+    display: flex;
+    flex-direction: column;
+  }
+  .vegetables .first {
+    display: flex;
+  }
+  .vegetables .first .sp1 {
+    margin: 5px;
+  }
+  .vegetables .second {
+    display: flex;
+  }
+  .vegetables .second .sp1 {
+    margin: 5px;
+  }
+  .vegetables .third {
+    display: flex;
+  }
+  .vegetables .third .sp1 {
+    margin: 5px;
+  }
+  .vegetables .four {
+    display: flex;
+  }
+  .vegetables .four .sp1 {
+    margin: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .text a {
+    font-size: 30px;
+  }
+  .header .link {
+    display: none !important;
+  }
+  .header .image .dropdown {
+    display: block!important;
+    margin-left: 20px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner .banner1 .cow1 {
+    height: 200px !important;
+    border: unset!important;
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner1 .cow1 img {
+    border-radius: 10%;
+  }
+  .banner .banner1 .cow2 {
+    height: 200px !important;
+    border: unset!important;
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner1 .cow2 img {
+    border-radius: 10%;
+  }
+  .banner .banner2 .cow3 {
+    display: flex;
+    height: 200px !important;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner2 .cow3 img {
+    border-radius: 10%;
+  }
+  .banner .banner2 .cow4 {
+    display: flex;
+    height: 200px !important;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner2 .cow4 img {
+    border-radius: 10%;
+  }
+  .column {
+    margin: unset !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .column .column1 {
     display: flex;
   }
   .column .column1 .sp1 {
@@ -65,19 +192,47 @@
   .column .column2 {
     display: flex;
   }
-  .column .column2 .sp1 {
+  .column .column2 .sp2 {
     margin: 5px;
   }
   .column .column3 {
     display: flex;
   }
-  .column .column3 .sp1 {
+  .column .column3 .sp3 {
     margin: 5px;
   }
   .column .column4 {
     display: flex;
   }
   .column .column4 .sp1 {
+    margin: 5px;
+  }
+  .vegetables {
+    display: flex;
+    flex-direction: column;
+  }
+  .vegetables .first {
+    display: flex;
+  }
+  .vegetables .first .sp1 {
+    margin: 5px;
+  }
+  .vegetables .second {
+    display: flex;
+  }
+  .vegetables .second .sp1 {
+    margin: 5px;
+  }
+  .vegetables .third {
+    display: flex;
+  }
+  .vegetables .third .sp1 {
+    margin: 5px;
+  }
+  .vegetables .four {
+    display: flex;
+  }
+  .vegetables .four .sp1 {
     margin: 5px;
   }
 }

@@ -21,7 +21,7 @@
         display: flex;
         flex-direction:column;
         .banner1{
-            .cow1{
+            .cow1{                
                 border: unset!important;
                display:flex;
                margin: auto !important;
@@ -42,6 +42,7 @@
         .banner2{
             .cow3{
                 display:flex;
+               
                margin: auto !important;
                justify-content: center;
                width:100%;
@@ -57,26 +58,187 @@
         }
     }
     // 
-    .column{
+    .column {
         display:flex;
         flex-direction:column;
-        .column1{
+        .column1 {
+            padding:0px!important;
+            display:flex;
+            .sp1 {
+                margin: 5px;
+            }
+        }
+        .column2 {
+            padding:0px!important;
+            display:flex;
+
+            .sp2 {
+                margin: 5px;
+            }
+           
+        }
+        .column3{
+            padding:0px!important;
+            display:flex;
+            .sp3{
+                margin: 5px;
+            }
+        }
+        .column4{
+            padding:0px!important;
+            display:flex;
+            .sp4{
+                margin: 5px;
+            }
+        }
+    }
+    // 
+    .vegetables{
+        display:flex;
+        flex-direction:column;
+        .first{
             display:flex;
             .sp1{
                 margin: 5px;
             }
         }
-        .column2{
-            .column1();
+        .second{
+            .first();
+        }
+        .third{
+            .first();
+        }
+        .four{
+            .first();
+
+        }
+       
+    }
+   
+}
+
+@media  (max-width:767px)
+{
+    .header{
+        display:flex;
+        justify-content:space-between;
+        .text {
+            a{
+                font-size:30px;
+            }
+        }
+        .link{
+           
+             display: none !important;
+            
+        }
+        .image{
+           
+            .dropdown{
+                display: block!important;
+                margin-left: 20px;
+               
+
+            }
+        }
+    }
+
+  
+    // 
+  
+    .banner{ 
+        // margin-top: -100px!important;
+        display: flex;
+        flex-direction:column;
+        .banner1{
+            .cow1{
+                height: 200px !important;
+                border: unset!important;
+               display:flex;
+               margin: auto !important;
+               justify-content: center;
+               width:100%;
+               align-items: center;
+               img{
+                border-radius: 10%;      
+
+               }
+                
+            }
+            .cow2{
+               .cow1();
+ 
+               
+            }
+            
+        }
+        .banner2{
+            .cow3{
+                display:flex;
+                height: 200px !important;
+               margin: auto !important;
+               justify-content: center;
+               width:100%;
+               align-items: center;
+               img{
+                border-radius: 10%;      
+
+               }
+            }
+            .cow4{
+                .cow3();
+            }
+        }
+    }
+    // 
+    .column {
+        margin: unset !important;
+        display:flex;
+        flex-direction:column;
+        .column1 {
+            display:flex;
+            .sp1 {
+                margin: 5px;
+            }
+        }
+        .column2 {
+            display:flex;
+
+            .sp2 {
+                margin: 5px;
+            }
+           
         }
         .column3{
-            .column1();
+            display:flex;
+            .sp3{
+                margin: 5px;
+            }
         }
         .column4{
             .column1();
         }
     }
-   
+    // 
+    .vegetables{
+        display:flex;
+        flex-direction:column;
+        .first{
+            display:flex;
+            .sp1{
+                margin: 5px;
+            }
+        }
+        .second{
+            .first();
+        }
+        .third{
+            .first();
+        }
+        .four{
+            .first();
 
-
+        }
+       
+    }
 }

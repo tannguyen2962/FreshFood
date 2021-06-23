@@ -3,3 +3,980 @@ body {
   margin: 0;
   padding: 0;
 }
+@media (max-width: 1024px) and (min-width: 768px) {
+  .header .link {
+    display: none!important;
+  }
+  .header .image .dropdown {
+    display: block!important;
+    margin-left: 20px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner .banner1 .cow1 {
+    border: unset!important;
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner1 .cow1 img {
+    border-radius: 10%;
+  }
+  .banner .banner1 .cow2 {
+    border: unset!important;
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner1 .cow2 img {
+    border-radius: 10%;
+  }
+  .banner .banner2 .cow3 {
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner2 .cow3 img {
+    border-radius: 10%;
+  }
+  .banner .banner2 .cow4 {
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner2 .cow4 img {
+    border-radius: 10%;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .column .column1 {
+    padding: 0px!important;
+    display: flex;
+  }
+  .column .column1 .sp1 {
+    margin: 5px;
+  }
+  .column .column2 {
+    padding: 0px!important;
+    display: flex;
+  }
+  .column .column2 .sp2 {
+    margin: 5px;
+  }
+  .column .column3 {
+    padding: 0px!important;
+    display: flex;
+  }
+  .column .column3 .sp3 {
+    margin: 5px;
+  }
+  .column .column4 {
+    padding: 0px!important;
+    display: flex;
+  }
+  .column .column4 .sp4 {
+    margin: 5px;
+  }
+  .vegetables {
+    display: flex;
+    flex-direction: column;
+  }
+  .vegetables .first {
+    display: flex;
+  }
+  .vegetables .first .sp1 {
+    margin: 5px;
+  }
+  .vegetables .second {
+    display: flex;
+  }
+  .vegetables .second .sp1 {
+    margin: 5px;
+  }
+  .vegetables .third {
+    display: flex;
+  }
+  .vegetables .third .sp1 {
+    margin: 5px;
+  }
+  .vegetables .four {
+    display: flex;
+  }
+  .vegetables .four .sp1 {
+    margin: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .text a {
+    font-size: 30px;
+  }
+  .header .link {
+    display: none !important;
+  }
+  .header .image .dropdown {
+    display: block!important;
+    margin-left: 20px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner .banner1 .cow1 {
+    height: 200px !important;
+    border: unset!important;
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner1 .cow1 img {
+    border-radius: 10%;
+  }
+  .banner .banner1 .cow2 {
+    height: 200px !important;
+    border: unset!important;
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner1 .cow2 img {
+    border-radius: 10%;
+  }
+  .banner .banner2 .cow3 {
+    display: flex;
+    height: 200px !important;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner2 .cow3 img {
+    border-radius: 10%;
+  }
+  .banner .banner2 .cow4 {
+    display: flex;
+    height: 200px !important;
+    margin: auto !important;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .banner .banner2 .cow4 img {
+    border-radius: 10%;
+  }
+  .column {
+    margin: unset !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .column .column1 {
+    display: flex;
+  }
+  .column .column1 .sp1 {
+    margin: 5px;
+  }
+  .column .column2 {
+    display: flex;
+  }
+  .column .column2 .sp2 {
+    margin: 5px;
+  }
+  .column .column3 {
+    display: flex;
+  }
+  .column .column3 .sp3 {
+    margin: 5px;
+  }
+  .column .column4 {
+    display: flex;
+  }
+  .column .column4 .sp1 {
+    margin: 5px;
+  }
+  .vegetables {
+    display: flex;
+    flex-direction: column;
+  }
+  .vegetables .first {
+    display: flex;
+  }
+  .vegetables .first .sp1 {
+    margin: 5px;
+  }
+  .vegetables .second {
+    display: flex;
+  }
+  .vegetables .second .sp1 {
+    margin: 5px;
+  }
+  .vegetables .third {
+    display: flex;
+  }
+  .vegetables .third .sp1 {
+    margin: 5px;
+  }
+  .vegetables .four {
+    display: flex;
+  }
+  .vegetables .four .sp1 {
+    margin: 5px;
+  }
+}
+.banner {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background: url("../image/introduce-banner/romanesco-3493007_1920.jpg") center no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  background-color: rgba(26, 25, 25, 0.5);
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.banner .banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.banner .banner-text h1 {
+  color: #000;
+  font-size: 50px;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+.banner .banner-text a {
+  text-decoration: none;
+  color: #423535;
+  padding: 0px 10px;
+  font-weight: 500;
+}
+.banner .banner-text a:hover {
+  color: #1de961;
+}
+.info {
+  margin-top: 50px;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+.nav {
+  font-size: 20px;
+  margin-top: 50px;
+  justify-content: center;
+}
+.vegetables {
+  display: flex;
+  flex-wrap: wrap;
+}
+.vegetables .first {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.vegetables .first .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.vegetables .first .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.vegetables .first .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.vegetables .first .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.vegetables .first .sp1-text h4 {
+  cursor: pointer;
+}
+.vegetables .first .sp1-text h4:hover {
+  color: #86BA09;
+}
+.vegetables .first .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.vegetables .first .sp1-text .price h5 {
+  color: #86BA09;
+}
+.vegetables .first .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.vegetables .second {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.vegetables .second .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.vegetables .second .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.vegetables .second .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.vegetables .second .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.vegetables .second .sp1-text h4 {
+  cursor: pointer;
+}
+.vegetables .second .sp1-text h4:hover {
+  color: #86BA09;
+}
+.vegetables .second .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.vegetables .second .sp1-text .price h5 {
+  color: #86BA09;
+}
+.vegetables .second .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.vegetables .third {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.vegetables .third .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.vegetables .third .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.vegetables .third .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.vegetables .third .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.vegetables .third .sp1-text h4 {
+  cursor: pointer;
+}
+.vegetables .third .sp1-text h4:hover {
+  color: #86BA09;
+}
+.vegetables .third .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.vegetables .third .sp1-text .price h5 {
+  color: #86BA09;
+}
+.vegetables .third .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.vegetables .four {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.vegetables .four .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.vegetables .four .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.vegetables .four .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.vegetables .four .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.vegetables .four .sp1-text h4 {
+  cursor: pointer;
+}
+.vegetables .four .sp1-text h4:hover {
+  color: #86BA09;
+}
+.vegetables .four .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.vegetables .four .sp1-text .price h5 {
+  color: #86BA09;
+}
+.vegetables .four .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.vegetables .five {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.vegetables .five .sp1 {
+  margin: 5px;
+}
+.vegetables .five .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.vegetables .five .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.vegetables .five .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.vegetables .five .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.vegetables .five .sp1-text h4 {
+  cursor: pointer;
+}
+.vegetables .five .sp1-text h4:hover {
+  color: #86BA09;
+}
+.vegetables .five .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.vegetables .five .sp1-text .price h5 {
+  color: #86BA09;
+}
+.vegetables .five .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.fruits {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fruits .first {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.fruits .first .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.fruits .first .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.fruits .first .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.fruits .first .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.fruits .first .sp1-text h4 {
+  cursor: pointer;
+}
+.fruits .first .sp1-text h4:hover {
+  color: #86BA09;
+}
+.fruits .first .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.fruits .first .sp1-text .price h5 {
+  color: #86BA09;
+}
+.fruits .first .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.fruits .second {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.fruits .second .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.fruits .second .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.fruits .second .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.fruits .second .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.fruits .second .sp1-text h4 {
+  cursor: pointer;
+}
+.fruits .second .sp1-text h4:hover {
+  color: #86BA09;
+}
+.fruits .second .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.fruits .second .sp1-text .price h5 {
+  color: #86BA09;
+}
+.fruits .second .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.fruits .third {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.fruits .third .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.fruits .third .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.fruits .third .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.fruits .third .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.fruits .third .sp1-text h4 {
+  cursor: pointer;
+}
+.fruits .third .sp1-text h4:hover {
+  color: #86BA09;
+}
+.fruits .third .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.fruits .third .sp1-text .price h5 {
+  color: #86BA09;
+}
+.fruits .third .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.fruits .four {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.fruits .four .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.fruits .four .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.fruits .four .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.fruits .four .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.fruits .four .sp1-text h4 {
+  cursor: pointer;
+}
+.fruits .four .sp1-text h4:hover {
+  color: #86BA09;
+}
+.fruits .four .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.fruits .four .sp1-text .price h5 {
+  color: #86BA09;
+}
+.fruits .four .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.fruits .five {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.fruits .five .sp1 {
+  margin: 5px;
+}
+.fruits .five .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.fruits .five .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.fruits .five .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.fruits .five .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.fruits .five .sp1-text h4 {
+  cursor: pointer;
+}
+.fruits .five .sp1-text h4:hover {
+  color: #86BA09;
+}
+.fruits .five .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.fruits .five .sp1-text .price h5 {
+  color: #86BA09;
+}
+.fruits .five .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.juices {
+  display: flex;
+  flex-wrap: wrap;
+}
+.juices .first {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.juices .first .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.juices .first .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.juices .first .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.juices .first .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.juices .first .sp1-text h4 {
+  cursor: pointer;
+}
+.juices .first .sp1-text h4:hover {
+  color: #86BA09;
+}
+.juices .first .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.juices .first .sp1-text .price h5 {
+  color: #86BA09;
+}
+.juices .first .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.juices .second {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.juices .second .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.juices .second .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.juices .second .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.juices .second .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.juices .second .sp1-text h4 {
+  cursor: pointer;
+}
+.juices .second .sp1-text h4:hover {
+  color: #86BA09;
+}
+.juices .second .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.juices .second .sp1-text .price h5 {
+  color: #86BA09;
+}
+.juices .second .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.juices .third {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.juices .third .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.juices .third .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.juices .third .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.juices .third .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.juices .third .sp1-text h4 {
+  cursor: pointer;
+}
+.juices .third .sp1-text h4:hover {
+  color: #86BA09;
+}
+.juices .third .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.juices .third .sp1-text .price h5 {
+  color: #86BA09;
+}
+.juices .third .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.juices .four {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.juices .four .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.juices .four .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.juices .four .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.juices .four .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.juices .four .sp1-text h4 {
+  cursor: pointer;
+}
+.juices .four .sp1-text h4:hover {
+  color: #86BA09;
+}
+.juices .four .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.juices .four .sp1-text .price h5 {
+  color: #86BA09;
+}
+.juices .four .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+.juices .five {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+.juices .five .sp1 {
+  margin: 5px;
+}
+.juices .five .sp1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+.juices .five .sp1 img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.juices .five .sp1 img:hover {
+  transition: 1s;
+  animation-delay: 0.5s;
+  transform: scale(1.1);
+}
+.juices .five .sp1-text {
+  padding-top: 22px;
+  text-align: center;
+}
+.juices .five .sp1-text h4 {
+  cursor: pointer;
+}
+.juices .five .sp1-text h4:hover {
+  color: #86BA09;
+}
+.juices .five .sp1-text .price {
+  display: flex;
+  justify-content: center;
+}
+.juices .five .sp1-text .price h5 {
+  color: #86BA09;
+}
+.juices .five .sp1-text .price img {
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 768px) {
+  .banner {
+    margin-top: 0 !important;
+  }
+  .banner .banner-text {
+    width: 100%;
+  }
+}

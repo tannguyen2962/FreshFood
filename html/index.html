@@ -28,17 +28,18 @@
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/slide-show.css" />
     <link rel="stylesheet" href="../css/banner.css" />
+    <link rel="stylesheet" href="../css/responesive.css">
 
   </head>
   <body>
     <!-- header -->
     <div class="header">
      
-      <div class="col-lg-3 col-md-6 col-xl-3 text"><a href="index.html">CLEVERFOOD</a></div>
+      <div class="col-12 col-md-6 col-lg-3 col-xl-3 text"><a href="index.html">CLEVERFOOD</a></div>
       <div class="col-lg-6 col-xl-6 link">
         <a href="index.html" style="color:#86BA09 ; font-size: 20px;">TRANG CHỦ</a>
         <a href="introduce.html">GIỚI THIỆU</a>
-        <a  href="#"
+        <a  href="store.html"
         data-bs-container="body"
         data-bs-toggle="popover" 
         data-bs-placement="bottom" 
@@ -56,7 +57,7 @@
         <a href="contact.html">LIÊN HỆ</a>
       </div>
       
-      <div class="col-lg-3 col-md-6 col-xl-3 image">
+      <div class="col-12 col-md-6 col-lg-3 col-xl-3 image">
         <div class="sreach">
           <img src="../image/image-header/search.svg" alt="" />
           <div class="input-group">
@@ -68,17 +69,11 @@
               <i class="fas fa-search"></i>
             </button>
           </div>
+        </div>   
 
-        </div>
-      
-  
-      
       <a href="login.html">  <img src="../image/image-header/user.png" alt="" /></a>
        <a href="shopping.html"> <img src="../image/image-header/shopping-cart.png" alt="" /></a>
 
-        <!-- <button>
-          <img src="image/image-header/vietnam.png" alt="" />Tiếng Việt
-        </button> -->
         <select class="selectpicker" data-width="fit">
           <option data-content='<span class="flag-icon flag-icon-us"></span> vietnam'> Việt Nam</option>
         <option  data-content='<span class="flag-icon flag-icon-mx"></span> English'>English</option>
@@ -100,14 +95,7 @@
       
     </div>
 
-     <!-- Sub menu -->
-     <div  id="cua-hang-sub-menu-wrapper">
-      <p><a href="">Rau Củ</a></p>
-      <p><a href="">Trái Cây</a></p>
-      <p><a href="">Đồ Uống</a></p>
-     
-    </div>
-
+  
     <!-- click to top -->
     <div class="click-top">
       <a href="#top">
@@ -150,7 +138,7 @@
     <!-- banner -->
 
     <div class="banner">
-      <div class="col-md-12 col-lg-6  banner1">
+      <div class="col-md-12 col-12 col-lg-6 col-xl-6 banner1">
         <div class="cow1">
           <img src="../image/image-banner/oranges.jpg" alt="" />
           <h4>Trái Cây</h4>
@@ -160,7 +148,7 @@
           <h4>Rau Củ</h4>
         </div>
       </div>
-      <div class="col-12 col-lg-6 banner2">
+      <div class="ccol-md-12 col-12 col-lg-6 col-xl-6 banner2">
         <div class="cow3">
           <img src="../image/image-banner/juice.jpg" alt="" />
           <h4>Nước Ép</h4>
@@ -176,29 +164,15 @@
     <div class="product">
       <h2>Sản Phẩm Nổi Bật</h2>
       <div class="option-product">
-        
+        <!-- <a href="">Mới Nhất</a>
+        <a href="">Giảm Giá</a>
+        <a href="">Bán Chạy</a>
+         -->
        
         
       </div>
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active option-product" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" 
-        aria-controls="home" aria-selected="true">Mới Nhất</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link option-product" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" 
-        aria-controls="profile" aria-selected="false"> Giảm Giá</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link option-product" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" 
-        aria-controls="contact" aria-selected="false">Bán Chạy</button>
-      </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-        
       <div class="column">
-        <div class="col-lg-3 col-12 column1">
+        <div class=" col-lg-3 col-12 column1">
           <div class="sp1">
             <img src="../image/image-product/Bưởi.jpg" alt="" />
             <div class="sp1-text">
@@ -278,268 +252,9 @@
             </div>
           </div>
         </div>
-    <!--  -->
-        </div>
-      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-        <div class="column-giamgia">
-          <div class="col-lg-3 col-12 column1">
-            <div class="sp1">
-              <img src="../image/image-product/Bưởi.jpg" alt="" />
-              <div class="sp1-text">
-                <h4>Bưởi</h4>
-               <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-              </div>
-            </div>
-            <div class="sp1">
-              <img src="../image/image-product/cherries.jpg" alt="" />
-              <div class="sp1-text">
-                <h4>Cherry</h4>
-                <div class="price">
-                  <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-12 column2">
-            <div class="sp2">
-              <img src="../image/image-product/Dâu.jpg" alt="" />
-              <div class="sp2-text">
-                <h4>Dâu</h4>
-                <div class="price">
-                  <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-                 </div>
-              </div>
-            </div>
-            <div class="sp2">
-              <img src="../image/image-product/kiwi.jpg" alt="" />
-              <div class="sp2-text">
-                <h4>Kiwi</h4>
-                <div class="price">
-                  <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-12 column3">
-            <div class="sp3">
-              <img src="../image/image-product/Lựu.jpg" alt="" />
-              <div class="sp3-text">
-                <h4>Lựu</h4>
-                <div class="price">
-                  <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-                 </div>
-              </div>
-            </div>
-            <div class="sp3">
-              <img src="../image/image-product/apple-product.jpg" alt="" />
-              <div class="sp3-text">
-                <h4>Táo</h4>
-                <div class="price">
-                  <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-12 column4">
-            <div class="sp4">
-              <img src="../image/image-product/Bưởi.jpg" alt="" />
-              <div class="sp4-text">
-                <h4>Việt Quốc</h4>
-                <div class="price">
-                  <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-                 </div>
-              </div>
-            </div>
-            <div class="sp4">
-              <img src="../image/image-product/Bưởi.jpg" alt="" />
-              <div class="sp4-text">
-                <h4>Quýt</h4>
-                <div class="price">
-                  <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-                 </div>
-              </div>
-            </div>
-          </div>
       </div>
-      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-
-        <!--  -->
-
-      <div class="column-banchay">
-        <div class="col-lg-3 col-12 column1">
-          <div class="sp1">
-            <img src="../image/image-product/Bưởi.jpg" alt="" />
-            <div class="sp1-text">
-              <h4>Bưởi</h4>
-             <div class="price">
-              <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-             </div>
-            </div>
-          </div>
-          <div class="sp1">
-            <img src="../image/image-product/cherries.jpg" alt="" />
-            <div class="sp1-text">
-              <h4>Cherry</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-12 column2">
-          <div class="sp2">
-            <img src="../image/image-product/Dâu.jpg" alt="" />
-            <div class="sp2-text">
-              <h4>Dâu</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-          <div class="sp2">
-            <img src="../image/image-product/kiwi.jpg" alt="" />
-            <div class="sp2-text">
-              <h4>Kiwi</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-12 column3">
-          <div class="sp3">
-            <img src="../image/image-product/Lựu.jpg" alt="" />
-            <div class="sp3-text">
-              <h4>Lựu</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-          <div class="sp3">
-            <img src="../image/image-product/apple-product.jpg" alt="" />
-            <div class="sp3-text">
-              <h4>Táo</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-12 column4">
-          <div class="sp4">
-            <img src="../image/image-product/Việt Quốc.jpg" alt="" />
-            <div class="sp4-text">
-              <h4>Việt Quốc</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-          <div class="sp4">
-            <img src="../image/image-product/quyt.jpg" alt="" />
-            <div class="sp4-text">
-              <h4>Quýt</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-        </div>
-    
-      </div>
-    </div>
-
-<!--     
-      <div class="column">
-        <div class="col-lg-3 col-12 column1">
-          <div class="sp1">
-            <img src="../image/image-product/Bưởi.jpg" alt="" />
-            <div class="sp1-text">
-              <h4>Bưởi</h4>
-             <div class="price">
-              <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-             </div>
-            </div>
-          </div>
-          <div class="sp1">
-            <img src="../image/image-product/cherries.jpg" alt="" />
-            <div class="sp1-text">
-              <h4>Cherry</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-12 column2">
-          <div class="sp2">
-            <img src="../image/image-product/Dâu.jpg" alt="" />
-            <div class="sp2-text">
-              <h4>Dâu</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-          <div class="sp2">
-            <img src="../image/image-product/kiwi.jpg" alt="" />
-            <div class="sp2-text">
-              <h4>Kiwi</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-12 column3">
-          <div class="sp3">
-            <img src="../image/image-product/Lựu.jpg" alt="" />
-            <div class="sp3-text">
-              <h4>Lựu</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-          <div class="sp3">
-            <img src="../image/image-product/apple-product.jpg" alt="" />
-            <div class="sp3-text">
-              <h4>Táo</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-12 column4">
-          <div class="sp4">
-            <img src="../image/image-product/Việt Quốc.jpg" alt="" />
-            <div class="sp4-text">
-              <h4>Việt Quốc</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-          <div class="sp4">
-            <img src="../image/image-product/quyt.jpg" alt="" />
-            <div class="sp4-text">
-              <h4>Quýt</h4>
-              <div class="price">
-                <h5>2000đ</h5> <img src="../image/image-header/shopping-cart.png" alt=""> 
-               </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
     </div>
    
-
-
-
 <!-- Tabs content -->
     <!-- footer -->
     <div class="footer">
@@ -560,7 +275,7 @@
 
       <!-- footer2 -->
       <div class="footer2">
-        <div class="col-lg-3 col-md-6 column1">
+        <div class="col-12 col-lg-3 col-md-6 column1">
           <h2>CLEVERFOOD</h2>
           <h6>Địa chỉ: 319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</h6>
           <a href="mailto:clearverfood@gmail.com"
@@ -573,7 +288,7 @@
           <div class="text2">
             <a href="index.html">Trang Chủ</a>
             <a href="introduce.html">Giới Thiệu</a>
-            <a href="">Cửa Hàng</a>
+            <a href="store.html">Cửa Hàng</a>
             <a href="knowledge.html">Kiến Thức</a>
             <a href="contact.html">Liên Hệ</a>
           </div>
@@ -588,7 +303,7 @@
            
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 column4">
+        <div class="col-12 col-lg-3 col-md-6 column4">
           <h2>Contact Us</h2>
           <div class="text4">
 
@@ -607,7 +322,7 @@
    
   </body>
   <script type="text/javascript" src="../js/slide-show.js"></script>
-    <script type="text/javascript" src="../js/popover.js"> </script>
+    <!-- <script type="text/javascript" src="../js/popover.js"> </script> -->
     <script type="text/javascript" src="../js/slidebar-left.js"> </script>
     <script type="text/javascript" src="../js/sub-menu.js"> </script>
 </html>

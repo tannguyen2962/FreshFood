@@ -133,3 +133,22 @@
     text-align: center !important;
   }
 }
+@media (max-width: 768px) {
+  .footer1 h2 {
+    font-size: 24px!important;
+  }
+  .footer2 {
+    padding: 10px !important;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer2 .column2 {
+    display: none !important;
+  }
+  .footer2 .column3 {
+    display: none !important;
+  }
+  .footer2 .column4 {
+    text-align: center !important;
+  }
+}

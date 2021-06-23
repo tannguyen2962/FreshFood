@@ -2,7 +2,7 @@
   width: 100%;
   height: 50vh;
   position: relative;
-  background: url("../image/introduce-banner/romanesco-3493007_1920.jpg") fixed center no-repeat;
+  background: url("../image/introduce-banner/romanesco-3493007_1920.jpg") center no-repeat;
   background-size: cover;
   opacity: 0.9;
   background-color: rgba(26, 25, 25, 0.5);
@@ -13,7 +13,7 @@
 }
 .banner .banner-text {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
@@ -61,6 +61,10 @@
   align-items: center;
   flex-direction: column;
 }
+.content-2 .column1 .text-1 img {
+  width: 100%;
+  height: auto;
+}
 .content-2 .column1 .text-1 img:hover {
   transform: rotateY(360deg);
   transition: 1s;
@@ -68,11 +72,27 @@
 .content-2 .column1 .text-2 {
   margin-top: 150px;
 }
+.content-2 .column1 .text-2 img {
+  width: 100%;
+  height: auto;
+}
+.content-2 .column1 .text-2 img:hover {
+  transform: rotateY(360deg);
+  transition: 1s;
+}
+.content-2 .column1 .text-3 img {
+  width: 100%;
+  height: auto;
+}
+.content-2 .column1 .text-3 img:hover {
+  transform: rotateY(360deg);
+  transition: 1s;
+}
 .content-2 .column1 .text-4 {
   margin-top: 150px;
 }
 .content-2 .column1 .text-4 img {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 .content-2 .column1 .text-4 img:hover {
@@ -89,4 +109,15 @@
 .content-2 .column2 img {
   width: 100%;
   height: auto;
+}
+@media (max-width: 768px) {
+  .banner {
+    margin: 0!important;
+  }
+  .banner .banner-text {
+    width: 100%;
+  }
+  .content-2 img {
+    width: 100%;
+  }
 }

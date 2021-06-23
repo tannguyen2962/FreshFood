@@ -36,5 +36,5 @@ function hienThiSlide1() {
     if (index > slides.length - 1) {index = 0} 
     slides[index].style.display = "block"; 
     index++;
-    setTimeout(hienThiSlide1, 3000); // Change image every 3 seconds
+    setTimeout(hienThiSlide1, 3000000); // Change image every 3 seconds
 }

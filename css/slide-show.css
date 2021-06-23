@@ -201,3 +201,17 @@
   background-color: transparent;
   opacity: 0.8;
 }
+@media (max-width: 768px) {
+  .slideshow .slide-2 .text2 h3 {
+    font-size: 60px;
+  }
+  .slideshow .slide-2 .text2 span {
+    font-size: 45px;
+  }
+  .slideshow .slide-2 .text2 p {
+    font-size: 25px;
+  }
+  .slideshow .slide-2 .text2 h3 {
+    font-size: 60px;
+  }
+}
